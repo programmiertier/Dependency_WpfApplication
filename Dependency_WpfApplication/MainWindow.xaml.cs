@@ -31,5 +31,10 @@ namespace Dependency_WpfApplication
         {
             MessageBox.Show(string.Format("Es ist {0:HH:mm:ss} Uhr", DateTime.Now));
         }
+
+        private void btn_Anfrage_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(string.Format("Krah! Krah!"));
+        }
     }
 }
