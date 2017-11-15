@@ -24,5 +24,12 @@ namespace Dependency_WpfApplication
         {
             InitializeComponent();
         }
+
+        
+
+        private void btn_AnfrageClicked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(string.Format("Es ist {0:HH:mm:ss} Uhr", DateTime.Now));
+        }
     }
 }
